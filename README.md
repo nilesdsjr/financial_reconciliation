@@ -1,4 +1,4 @@
-# Finance Pipeline (CSV ➜ Snowflake ➜ dbt)
+# Finance Pipeline (CSV S3 Snowflake dbt)
 
 End‑to‑end template for landing pipe‑delimited CSVs from S3, standardising schemas
 across multiple payment vendors, reconciling balances, and surfacing SAR
