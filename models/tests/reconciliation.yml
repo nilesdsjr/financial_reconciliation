@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: fct__bank_vs_processor_mismatch
+    tests:
+      - dbt_utils.equality:
+          compare_model: ref('empty_set')

@@ -1,0 +1,17 @@
+bank:
+  "Transaction ID": txn_id
+  "Acct Num":       account_number
+  "Amount (USD)":   amount
+  "Date":           txn_dt
+
+cardnet:
+  "id":                   txn_id
+  "card_number":          account_number
+  "amount_usd":           amount
+  "transaction_datetime": txn_dt
+
+processor:
+  "trans_id":  txn_id
+  "acct":      account_number
+  "amt":       amount
+  "date_time": txn_dt
